@@ -1,6 +1,6 @@
 {
   "name": "shotcaller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Covid-19 vaccine appointment availability scraper",
   "main": "dist/index.js",
   "author": "@andrhamm",
