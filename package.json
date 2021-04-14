@@ -5,14 +5,32 @@
   "main": "dist/index.js",
   "author": "@andrhamm",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrhamm/shotcaller.git"
+  },
+  "homepage": "https://github.com/andrhamm/shotcaller",
+  "keywords": [
+    "covid",
+    "covid19",
+    "covid-19",
+    "cvs",
+    "poll",
+    "scraper"
+  ],
+  "bin": {
+    "shotcaller": "./bin/shotcaller"
+  },
   "scripts": {
-    "build": "ncc build src/cvs.js -o dist/cvs.js",
-    "cvs": "node dist/cvs.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build ./src/cvs.js -o ./dist/cvs.js",
+    "cvs": "node ./dist/cvs.js"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.0"
   },
   "dependencies": {
-    "@vercel/ncc": "^0.28.0",
     "axios": "^0.21.1",
-    "chalk": "^4.1.0",
-    "lowdb": "^1.0.0"
+    "chalk": "^4.1.0"
   }
 }

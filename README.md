@@ -1,17 +1,33 @@
 # shotcaller
 
-Polls `CVS.com` for Covid-19 vaccine appointment availability, triggers macOS notification when availability is found.
+Polls `CVS.com` for COVID-19 vaccine appointment availability, triggers macOS notification when availability is found.
 
-## Installation
+## Installation and Usage
+
+Pass a state abbreviation to the commands (examples show `vt`).
+
+Optionally install `terminal-notifier` for system notifications.
 
     brew install terminal-notifier
+
+With NPM:
+
+    npm install -g shotcaller
+    shotcaller vt
+
+With Yarn:
+
+    yarn global add shotcaller
+    shotcaller vt
+
+Or, from source:
+
+    git clone git@github.com:andrhamm/shotcaller.git
+    cd shotcaller
     yarn build
-
-## Usage
-
-Pass a US state abbreviation to the `cvs` script:
-
-    yarn cvs VT
+    yarn cvs vt
+    // or
+    ./bin/shotcaller vt
 
 ---
 
