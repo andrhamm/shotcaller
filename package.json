@@ -1,0 +1,18 @@
+{
+  "name": "shotcaller",
+  "version": "1.0.0",
+  "description": "Covid-19 vaccine appointment availability scraper",
+  "main": "dist/index.js",
+  "author": "@andrhamm",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/cvs.js -o dist/cvs.js",
+    "cvs": "node dist/cvs.js"
+  },
+  "dependencies": {
+    "@vercel/ncc": "^0.28.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "lowdb": "^1.0.0"
+  }
+}
