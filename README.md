@@ -20,6 +20,7 @@ Or, from source:
 
     git clone git@github.com:andrhamm/shotcaller.git
     cd shotcaller
+    yarn install
     yarn build
     yarn shotcaller vt
     # or
