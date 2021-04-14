@@ -11,7 +11,7 @@ Polls `CVS.com` for Covid-19 vaccine appointment availability, triggers macOS no
 
 Pass a US state abbreviation to the `cvs` script:
 
-    yarn csv VT
+    yarn cvs VT
 
 ---
 
