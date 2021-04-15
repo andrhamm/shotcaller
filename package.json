@@ -2,7 +2,7 @@
   "name": "shotcaller",
   "version": "1.2.0",
   "description": "COVID-19 vaccine appointment availability notifier",
-  "main": "dist/index.js",
+  "main": "dist/shotcaller/index.js",
   "author": "@andrhamm",
   "license": "MIT",
   "repository": {
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ncc build ./src/cvs.js -o ./dist/cvs.js",
+    "build": "ncc build ./src/shotcaller.js -o ./dist/shotcaller",
     "cvs": "shotcaller",
     "shotcaller": "shotcaller",
     "notify": "shotcaller test"
